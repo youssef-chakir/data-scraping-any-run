@@ -1,0 +1,858 @@
+section general info :
+General Info
+Add for printing
+File name:
+HugeHack 1.3.exe
+Full analysis: https://app.any.run/tasks/cb393083-df12-456e-befd-1a209499c1fb
+Verdict: Malicious activity
+Threats:
+Backdoor
+njRAT
+njRAT
+Ramnit
+Remote Access Trojan
+Stealer
+Trojan
+A backdoor is a type of cybersecurity threat that allows attackers to secretly compromise a system and conduct malicious activities, such as stealing data and modifying files. Backdoors can be difficult to detect, as they often use legitimate system applications to evade defense mechanisms. Threat actors often utilize special malware, such as PlugX, to establish backdoors on target devices.
+Malware Trends Tracker     >>>
+Analysis date: March 22, 2025 at 14:29:16
+OS: Windows 10 Professional (build: 19045, 64 bit)
+Tags:
+discord
+exfiltration
+stealer
+java
+evasion
+rat
+njrat
+bladabindi
+remote
+backdoor
+ramnit
+trojan
+neshta
+Indicators:
+MIME: application/vnd.microsoft.portable-executable
+File info: PE32 executable (GUI) Intel 80386, for MS Windows, 8 sections
+MD5:
+A6D81F76E32D232302D5D3E088CBEB16
+SHA1:
+345F29473E735735A4AD9E63E668F7EB89CE843C
+SHA256:
+107C0D57D568C7F5E3CCE08D6915098A12B1703C75E454AE4600C976DADD8AA8
+SSDEEP:
+98304:G6pJm1PU5tmFI+LEylWOPrNiO6UFDuUEE0sZ3aipsQa+uhpa06oKXCK6paqpOuZH:EgA5Lht7f+
+ANY.RUN
+is an interactive service which provides full access to the guest system. Information in this report could be distorted by user actions and is provided for user acknowledgement as it is.
+ANY.RUN
+does not guarantee maliciousness or safety of the content.
+Software environment set and analysis options
+
+
+
+section behavior activities :
+Behavior activities
+Add for printing
+MALICIOUS
+Adds path to the Windows Defender exclusion list
+powershell.exe (PID: 660)
+Changes Windows Defender settings
+powershell.exe (PID: 660)
+Create files in the Startup directory
+dllhost.exe (PID: 7612)
+NJRAT has been detected (SURICATA)
+dllhost.exe (PID: 7612)
+Connects to the CnC server
+dllhost.exe (PID: 7612)
+NJRAT has been detected (YARA)
+dllhost.exe (PID: 7612)
+Changes the autorun value in the registry
+dllhost.exe (PID: 7612)
+NjRAT is detected
+dllhost.exe (PID: 7612)
+RAMNIT has been detected
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 7320)
+DesktopLayer.exe (PID: 7836)
+78fbd38567ee4a50b0321db465ddf91cSrv.exe (PID: 2568)
+NESHTA mutex has been found
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+Actions looks like stealing of personal data
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+SUSPICIOUS
+The process executes JS scripts
+HugeHack 1.3.exe (PID: 4776)
+wscript.exe (PID: 2384)
+Executable content was dropped or overwritten
+HugeHack 1.3.exe (PID: 4776)
+Payload.exe (PID: 720)
+dllhost.exe (PID: 7612)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 7320)
+78fbd38567ee4a50b0321db465ddf91cSrv.exe (PID: 2568)
+Reads security settings of Internet Explorer
+HugeHack 1.3.exe (PID: 4776)
+Payload.exe (PID: 720)
+SecHealthUI.exe (PID: 6080)
+ShellExperienceHost.exe (PID: 5984)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+dllhost.exe (PID: 7612)
+Accesses commandline named arguments (SCRIPT)
+wscript.exe (PID: 2384)
+wscript.exe (PID: 1164)
+Accesses command line arguments (SCRIPT)
+wscript.exe (PID: 2384)
+wscript.exe (PID: 1164)
+Gets full path of the running script (SCRIPT)
+wscript.exe (PID: 2384)
+Base64-obfuscated command line is found
+wscript.exe (PID: 1164)
+Runs shell command (SCRIPT)
+wscript.exe (PID: 2384)
+wscript.exe (PID: 1164)
+Application launched itself
+wscript.exe (PID: 2384)
+powershell.exe (PID: 660)
+Starts POWERSHELL.EXE for commands execution
+wscript.exe (PID: 1164)
+powershell.exe (PID: 660)
+BASE64 encoded PowerShell command has been detected
+wscript.exe (PID: 1164)
+Creates file in the systems drive root
+Payload.exe (PID: 720)
+dllhost.exe (PID: 7612)
+Uses REG/REGEDIT.EXE to modify registry
+powershell.exe (PID: 2692)
+Script adds exclusion path to Windows Defender
+powershell.exe (PID: 660)
+The process creates files with name similar to system file names
+Payload.exe (PID: 720)
+Checks for external IP
+svchost.exe (PID: 2196)
+webhook.exe (PID: 4428)
+The process connected to a server suspected of theft
+webhook.exe (PID: 4428)
+Starts itself from another location
+Payload.exe (PID: 720)
+78fbd38567ee4a50b0321db465ddf91cSrv.exe (PID: 2568)
+Contacting a server suspected of hosting an CnC
+dllhost.exe (PID: 7612)
+Connects to unusual port
+dllhost.exe (PID: 7612)
+There is functionality for taking screenshot (YARA)
+javaw.exe (PID: 300)
+dllhost.exe (PID: 7612)
+Mutex name with non-standard characters
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+INFO
+Checks supported languages
+HugeHack 1.3.exe (PID: 4776)
+javaw.exe (PID: 300)
+Payload.exe (PID: 720)
+webhook.exe (PID: 4428)
+dllhost.exe (PID: 7612)
+SecHealthUI.exe (PID: 6080)
+ShellExperienceHost.exe (PID: 5984)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+78fbd38567ee4a50b0321db465ddf91cSrv.exe (PID: 2568)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 7320)
+DesktopLayer.exe (PID: 7836)
+identity_helper.exe (PID: 7308)
+identity_helper.exe (PID: 7908)
+Reads the computer name
+HugeHack 1.3.exe (PID: 4776)
+webhook.exe (PID: 4428)
+Payload.exe (PID: 720)
+javaw.exe (PID: 300)
+dllhost.exe (PID: 7612)
+SecHealthUI.exe (PID: 6080)
+ShellExperienceHost.exe (PID: 5984)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+identity_helper.exe (PID: 7908)
+identity_helper.exe (PID: 7308)
+Process checks computer location settings
+HugeHack 1.3.exe (PID: 4776)
+Payload.exe (PID: 720)
+dllhost.exe (PID: 7612)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+Create files in a temporary directory
+HugeHack 1.3.exe (PID: 4776)
+javaw.exe (PID: 300)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 8012)
+dllhost.exe (PID: 7612)
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 7320)
+Application based on Java
+javaw.exe (PID: 300)
+Self-termination (SCRIPT)
+wscript.exe (PID: 2384)
+Creates files in the program directory
+javaw.exe (PID: 300)
+Disables trace logs
+webhook.exe (PID: 4428)
+powershell.exe (PID: 3304)
+Reads the machine GUID from the registry
+webhook.exe (PID: 4428)
+javaw.exe (PID: 300)
+dllhost.exe (PID: 7612)
+Reads the software policy settings
+webhook.exe (PID: 4428)
+slui.exe (PID: 7480)
+BackgroundTransferHost.exe (PID: 1812)
+slui.exe (PID: 5892)
+Checks proxy server information
+webhook.exe (PID: 4428)
+powershell.exe (PID: 3304)
+BackgroundTransferHost.exe (PID: 1812)
+slui.exe (PID: 5892)
+Creates files or folders in the user directory
+javaw.exe (PID: 300)
+Payload.exe (PID: 720)
+dllhost.exe (PID: 7612)
+BackgroundTransferHost.exe (PID: 1812)
+Script raised an exception (POWERSHELL)
+powershell.exe (PID: 3304)
+powershell.exe (PID: 7332)
+Autorun file from Startup directory
+dllhost.exe (PID: 7612)
+Checks if a key exists in the options dictionary (POWERSHELL)
+powershell.exe (PID: 7332)
+Reads security settings of Internet Explorer
+BackgroundTransferHost.exe (PID: 3240)
+BackgroundTransferHost.exe (PID: 1812)
+BackgroundTransferHost.exe (PID: 7372)
+BackgroundTransferHost.exe (PID: 516)
+BackgroundTransferHost.exe (PID: 6656)
+Taskmgr.exe (PID: 7392)
+The sample compiled with english language support
+78fbd38567ee4a50b0321db465ddf91c.exe (PID: 7320)
+78fbd38567ee4a50b0321db465ddf91cSrv.exe (PID: 2568)
+Manual execution by a user
+Taskmgr.exe (PID: 2420)
+Taskmgr.exe (PID: 7392)
+Reads Environment values
+identity_helper.exe (PID: 7908)
+identity_helper.exe (PID: 7308)
+Application launched itself
+msedge.exe (PID: 5328)
+msedge.exe (PID: 6980)
+Find more information about signature artifacts and mapping to MITRE ATT&CK™ MATRIX at the
+full report
+
+
+
+section process information :
+4776
+"C:\Users\admin\AppData\Local\Temp\HugeHack 1.3.exe" 
+C:\Users\admin\AppData\Local\Temp\HugeHack 1.3.exe
+explorer.exe
+
+2384
+"C:\Windows\System32\WScript.exe" "C:\Users\admin\AppData\Local\Temp\ere.js" 
+C:\Windows\SysWOW64\wscript.exe
+—
+HugeHack 1.3.exe
+
+720
+"C:\Users\admin\AppData\Local\Temp\Payload.exe" 
+C:\Users\admin\AppData\Local\Temp\Payload.exe
+HugeHack 1.3.exe
+
+4428
+"C:\Users\admin\AppData\Local\Temp\webhook.exe" 
+C:\Users\admin\AppData\Local\Temp\webhook.exe
+HugeHack 1.3.exe
+
+300
+"C:\Program Files\Java\jre1.8.0_271\bin\javaw.exe" -jar "C:\Users\admin\AppData\Local\Temp\HugeHack.jar" 
+C:\Program Files\Java\jre1.8.0_271\bin\javaw.exe
+—
+HugeHack 1.3.exe
+
+1164
+"C:\Windows\SysWOW64\WScript.exe" "C:\Users\admin\AppData\Local\Temp\ere.js" /elevate
+C:\Windows\SysWOW64\wscript.exe
+wscript.exe
+
+660
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -enc cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBjAG8AbQBtAGEAbgBkACAAIgBBAGQAZAAtAE0AcABQAHIAZQBmAGUAcgBlAG4AYwBlACAALQBFAHgAYwBsAHUAcwBpAG8AbgBQAGEAdABoACAAIgBDADoAXAANAAoA
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+—
+wscript.exe
+
+5124
+\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+C:\Windows\System32\conhost.exe
+—
+powershell.exe
+
+2692
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -enc cgBlAGcAIABhAGQAZAAgACIASABLAEwATQBcAFMATwBGAFQAVwBBAFIARQBcAFAAbwBsAGkAYwBpAGUAcwBcAE0AaQBjAHIAbwBzAG8AZgB0AFwAVwBpAG4AZABvAHcAcwAgAEQAZQBmAGUAbgBkAGUAcgBcAEUAeABjAGwAdQBzAGkAbwBuAHMAXABQAGEAdABoAHMAIgAgAC8AdgAgAEMAOgBcAA==
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+—
+wscript.exe
+
+4620
+\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+C:\Windows\System32\conhost.exe
+—
+powershell.exe
+
+
+
+section registry activity :
+Registry activity
+Add for printing
+Total events
+45 360
+Read events
+44 716
+Write events
+643
+Delete events
+1
+Modification events
+(PID) Process:
+(4776) HugeHack 1.3.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.js\OpenWithProgids
+Operation:
+write
+Name:
+JSFile
+Value:
+(PID) Process:
+(4776) HugeHack 1.3.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer
+Operation:
+write
+Name:
+SlowContextMenuEntries
+Value:
+6024B221EA3A6910A2DC08002B30309D0A010000BD0E0C47735D584D9CEDE91E22E23282770100000114020000000000C0000000000000468D0000006078A409B011A54DAFA526D86198A78039010000FB9A790967ADD111ABCD00C04FC309361D100000
+(PID) Process:
+(4776) HugeHack 1.3.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.jar\OpenWithProgids
+Operation:
+write
+Name:
+jarfile
+Value:
+(PID) Process:
+(2384) wscript.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows Script\Settings\Telemetry\wscript.exe
+Operation:
+write
+Name:
+JScriptSetScriptStateStarted
+Value:
+41D8100000000000
+(PID) Process:
+(7316) reg.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions\Paths
+Operation:
+write
+Name:
+C:\
+Value:
+(PID) Process:
+(4428) webhook.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Tracing\webhook_RASAPI32
+Operation:
+write
+Name:
+EnableFileTracing
+Value:
+0
+(PID) Process:
+(4428) webhook.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Tracing\webhook_RASAPI32
+Operation:
+write
+Name:
+EnableAutoFileTracing
+Value:
+0
+(PID) Process:
+(4428) webhook.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Tracing\webhook_RASAPI32
+Operation:
+write
+Name:
+EnableConsoleTracing
+Value:
+0
+(PID) Process:
+(4428) webhook.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Tracing\webhook_RASAPI32
+Operation:
+write
+Name:
+FileTracingMask
+Value:
+(PID) Process:
+(4428) webhook.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Tracing\webhook_RASAPI32
+Operation:
+write
+Name:
+ConsoleTracingMask
+Value:
+Previous
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Next
+10
+
+
+
+section files activity :
+Files activity
+Add for printing
+Executable files
+27
+Suspicious files
+207
+Text files
+75
+Unknown types
+1
+Dropped files
+PID
+Process
+Filename
+Type
+4776
+HugeHack 1.3.exe
+C:\Users\admin\AppData\Local\Temp\Payload.exe
+executable
+MD5:
+C03A9146CD4539F6E24EE4131AA411DE
+SHA256:
+D71797F270A04477730E62C0239E2C5743B43DD282F04E0E6F313AC0A3F2D7A0
+4776
+HugeHack 1.3.exe
+C:\Users\admin\AppData\Local\Temp\ere.js
+text
+MD5:
+80AD90C98E9EF8EAFFF93E660CD1F5CB
+SHA256:
+55D1218D2454BCDB252EB1AFC5C6FAC56F93A4221CFBA61346E6338A0C3D106C
+1812
+BackgroundTransferHost.exe
+C:\Users\admin\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\AC\BackgroundTransferApi\e418a6a7-6cd7-40f4-b5f0-77c103a90490.down_data
+—
+MD5:
+—
+SHA256:
+—
+660
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_oputmuif.bja.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+300
+javaw.exe
+C:\Users\admin\AppData\Roaming\Microsoft\Crypto\RSA\S-1-5-21-1693682860-607145093-2874071422-1001\83aa4cc77f591dfc2374580bbd95f6ba_bb926e54-e3ca-40fd-ae90-2764341e7792
+binary
+MD5:
+C8366AE350E7019AEFC9D1E6E6A498C6
+SHA256:
+11E6ACA8E682C046C83B721EEB5C72C5EF03CB5936C60DF6F4993511DDC61238
+3304
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_yzcmqtwd.fvx.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+300
+javaw.exe
+C:\ProgramData\Oracle\Java\.oracle_jre_usage\17dfc292991c8061.timestamp
+text
+MD5:
+0A8DDFE438B2B0DF8F5D2162F5F0B253
+SHA256:
+D6082E08E417AF19860CBE4633C05278D767CE1A43377503838DEC20917E1254
+7332
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_v42fwvmq.pdh.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+3304
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_yca132ma.b2h.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+660
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_fu4z0jmf.xp4.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Previous
+1
+2
+3
+4
+5
+6
+7
+…
+38
+Next
+10
+
+
+
+section network activity :
+Network activity
+Add for printing
+HTTP(S) requests
+32
+TCP/UDP connections
+80
+DNS requests
+75
+Threats
+9
+HTTP requests
+PID
+Process
+Method
+HTTP Code
+IP
+URL
+CN
+Type
+Size
+Reputation
+4068
+SIHClient.exe
+GET
+200
+23.35.229.160:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl
+unknown
+ — 
+—
+whitelisted
+4884
+svchost.exe
+HEAD
+200
+23.50.131.74:80
+http://msedge.b.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9b9f8fb4-8a65-41e4-bda3-5416858f0aeb?P1=1743004114&P2=404&P3=2&P4=eqsV%2fpIVo6GJRNZfaeLlJAbIYcb3ock019992H7oNRAl6%2fKzlUyXuMltA3E%2fKG3hASQSs3IO28S2UG%2fjdQMv%2fA%3d%3d
+unknown
+ — 
+—
+whitelisted
+4884
+svchost.exe
+GET
+206
+23.50.131.74:80
+http://msedge.b.tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/9b9f8fb4-8a65-41e4-bda3-5416858f0aeb?P1=1743004114&P2=404&P3=2&P4=eqsV%2fpIVo6GJRNZfaeLlJAbIYcb3ock019992H7oNRAl6%2fKzlUyXuMltA3E%2fKG3hASQSs3IO28S2UG%2fjdQMv%2fA%3d%3d
+unknown
+ — 
+—
+whitelisted
+4156
+SystemSettings.exe
+GET
+200
+23.54.109.203:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx%2Fh0Ztl%2Bz8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g%2F6%2BrkS7QYXjzkCEAUZZSZEml49Gjh0j13P68w%3D
+unknown
+ — 
+—
+whitelisted
+5496
+MoUsoCoreWorker.exe
+GET
+200
+23.48.23.143:80
+http://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl
+unknown
+ — 
+—
+whitelisted
+2924
+SearchApp.exe
+GET
+200
+23.54.109.203:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx%2Fh0Ztl%2Bz8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g%2F6%2BrkS7QYXjzkCEAn5bsKVVV8kdJ6vHl3O1J0%3D
+unknown
+ — 
+—
+whitelisted
+4156
+SystemSettings.exe
+GET
+200
+23.54.109.203:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTrjrydRyt%2BApF3GSPypfHBxR5XtQQUs9tIpPmhxdiuNkHMEWNpYim8S8YCEAI5PUjXAkJafLQcAAsO18o%3D
+unknown
+ — 
+—
+whitelisted
+5968
+backgroundTaskHost.exe
+GET
+200
+184.30.131.245:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx%2Fh0Ztl%2Bz8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g%2F6%2BrkS7QYXjzkCEAUZZSZEml49Gjh0j13P68w%3D
+unknown
+ — 
+—
+whitelisted
+4068
+SIHClient.exe
+GET
+200
+23.35.229.160:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Update%20Secure%20Server%20CA%202.1.crl
+unknown
+ — 
+—
+whitelisted
+6544
+svchost.exe
+GET
+200
+184.30.131.245:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D
+unknown
+ — 
+—
+whitelisted
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Previous
+1
+2
+3
+4
+Next
+10
+Connections
+PID
+Process
+IP
+Domain
+ASN
+CN
+Reputation
+—
+—
+20.73.194.208:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+4
+System
+192.168.100.255:138
+—
+—
+—
+whitelisted
+5496
+MoUsoCoreWorker.exe
+23.48.23.143:80
+crl.microsoft.com
+Akamai International B.V.
+DE
+whitelisted
+3216
+svchost.exe
+20.198.162.78:443
+client.wns.windows.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+SG
+whitelisted
+6544
+svchost.exe
+40.126.31.131:443
+login.live.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+6544
+svchost.exe
+184.30.131.245:80
+ocsp.digicert.com
+AKAMAI-AS
+US
+whitelisted
+4428
+webhook.exe
+104.26.13.205:443
+api.ipify.org
+CLOUDFLARENET
+US
+shared
+4428
+webhook.exe
+162.159.130.233:443
+discordapp.com
+CLOUDFLARENET
+—
+whitelisted
+3304
+powershell.exe
+140.82.121.4:443
+github.com
+GITHUB
+US
+whitelisted
+2104
+svchost.exe
+20.73.194.208:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+Previous
+1
+2
+3
+4
+5
+6
+Next
+10
+DNS requests
+Domain
+IP
+Reputation
+google.com
+142.250.181.238
+whitelisted
+settings-win.data.microsoft.com
+20.73.194.208
+whitelisted
+crl.microsoft.com
+23.48.23.143
+23.48.23.156
+whitelisted
+client.wns.windows.com
+20.198.162.78
+40.113.103.199
+whitelisted
+login.live.com
+40.126.31.131
+40.126.31.73
+20.190.159.130
+40.126.31.128
+20.190.159.68
+40.126.31.69
+40.126.31.0
+20.190.159.75
+20.190.159.64
+20.190.159.73
+40.126.31.2
+20.190.159.0
+20.190.159.2
+40.126.31.130
+whitelisted
+ocsp.digicert.com
+184.30.131.245
+23.54.109.203
+whitelisted
+api.ipify.org
+104.26.13.205
+104.26.12.205
+172.67.74.152
+shared
+discordapp.com
+162.159.130.233
+162.159.129.233
+162.159.133.233
+162.159.134.233
+162.159.135.233
+whitelisted
+github.com
+140.82.121.4
+whitelisted
+gabh.gotdns.ch
+46.121.250.34
+malicious
+Previous
+1
+2
+3
+4
+5
+Next
+10
+Threats
+PID
+Process
+Class
+Message
+—
+—
+Misc activity
+ET INFO External IP Lookup Domain (ipify .org) in DNS Lookup
+—
+—
+Misc activity
+ET INFO External IP Address Lookup Domain (ipify .org) in TLS SNI
+—
+—
+Misc activity
+ET INFO Observed Discord Domain in DNS Lookup (discordapp .com)
+—
+—
+Misc activity
+ET INFO Observed Discord Domain (discordapp .com in TLS SNI)
+—
+—
+Successful Credential Theft Detected
+STEALER [ANY.RUN] Attempt to exfiltrate via Discord
+—
+—
+Potentially Bad Traffic
+ET DYN_DNS DYNAMIC_DNS Query to a *.gotdns .ch Domain
+—
+—
+Malware Command and Control Activity Detected
+ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)
+—
+—
+Malware Command and Control Activity Detected
+BACKDOOR [ANY.RUN] njRAT Bladabindi CnC Communication command ll
+—
+—
+Potentially Bad Traffic
+ET DYN_DNS DYNAMIC_DNS Query to a *.gotdns .ch Domain

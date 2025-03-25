@@ -1,0 +1,725 @@
+section general info :
+General Info
+Add for printing
+File name:
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch
+Full analysis: https://app.any.run/tasks/86b19756-1b24-4fab-9c2f-61880a1c5bf9
+Verdict: Malicious activity
+Threats:
+Glupteba
+Trojan
+Glupteba is a loader with information-stealing and traffic routing functionality. It is designed primarily to install other viruses on infected PCs but can do much more than that. In addition, it is being constantly updated, making this virus one to watch out for.
+Malware Trends Tracker     >>>
+Analysis date: March 22, 2025 at 18:20:28
+OS: Windows 10 Professional (build: 19045, 64 bit)
+Tags:
+uac
+trojan
+glupteba
+discord
+xmrig
+antivm
+golang
+Indicators:
+MIME: application/vnd.microsoft.portable-executable
+File info: PE32 executable (GUI) Intel 80386 (stripped to external PDB), for MS Windows, 6 sections
+MD5:
+AFAC5E4B4D8CB6F10353DA7E8FA83FA1
+SHA1:
+CA92E8AB80C94AD5AD4530863ADBB1E494BC817F
+SHA256:
+65DF23849C6A6722B36B8D3BD101C9B58EC82AB0F91EF09524A7B9C91FE76078
+SSDEEP:
+98304:X7P6MYDkfJ19P1e955CorSbJHDZtUD6Sz8/gwwReae/dyOBYk7d+gUBJPPe73Z40:/es
+ANY.RUN
+is an interactive service which provides full access to the guest system. Information in this report could be distorted by user actions and is provided for user acknowledgement as it is.
+ANY.RUN
+does not guarantee maliciousness or safety of the content.
+Software environment set and analysis options
+
+
+
+section behavior activities :
+Behavior activities
+Add for printing
+MALICIOUS
+Bypass User Account Control (Modify registry)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 5380)
+Bypass User Account Control (fodhelper)
+fodhelper.exe (PID: 2100)
+Changes the autorun value in the registry
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Glupteba is detected
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+Modifies exclusions in Windows Defender
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+Uses Task Scheduler to autorun other applications
+csrss.exe (PID: 660)
+SUSPICIOUS
+Starts CMD.EXE for commands execution
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 5380)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Changes default file association
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 5380)
+The process bypasses the loading of PowerShell profile settings
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+The process hides Powershell's copyright startup banner
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Starts POWERSHELL.EXE for commands execution
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Application launched itself
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+Uses NETSH.EXE to add a firewall rule or allowed programs
+cmd.exe (PID: 6436)
+The process creates files with name similar to system file names
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+Executable content was dropped or overwritten
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Starts itself from another location
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+Deletes scheduled task without confirmation
+schtasks.exe (PID: 4996)
+Creates a software uninstall entry
+csrss.exe (PID: 660)
+Windows service management via SC.EXE
+sc.exe (PID: 1052)
+sc.exe (PID: 680)
+sc.exe (PID: 3332)
+Drops a system driver (possible attempt to evade defenses)
+csrss.exe (PID: 660)
+There is functionality for VM detection VirtualPC (YARA)
+csrss.exe (PID: 660)
+Creates files in the driver directory
+csrss.exe (PID: 660)
+There is functionality for VM detection VirtualBox (YARA)
+csrss.exe (PID: 660)
+There is functionality for VM detection VMWare (YARA)
+csrss.exe (PID: 660)
+There is functionality for VM detection Parallels (YARA)
+csrss.exe (PID: 660)
+Xmrig is detected
+csrss.exe (PID: 660)
+INFO
+Reads the computer name
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 5380)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Checks supported languages
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 5380)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Drops encrypted JS script (Microsoft Script Encoder)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1628)
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe (PID: 1328)
+csrss.exe (PID: 660)
+Reads security settings of Internet Explorer
+fodhelper.exe (PID: 2100)
+cmd.exe (PID: 5344)
+Checks current location (POWERSHELL)
+powershell.exe (PID: 5728)
+powershell.exe (PID: 5260)
+powershell.exe (PID: 4300)
+powershell.exe (PID: 1616)
+powershell.exe (PID: 664)
+powershell.exe (PID: 6964)
+powershell.exe (PID: 1676)
+Script raised an exception (POWERSHELL)
+powershell.exe (PID: 5728)
+powershell.exe (PID: 5260)
+powershell.exe (PID: 4300)
+powershell.exe (PID: 1616)
+powershell.exe (PID: 664)
+powershell.exe (PID: 6964)
+powershell.exe (PID: 1676)
+Checks if a key exists in the options dictionary (POWERSHELL)
+powershell.exe (PID: 5728)
+powershell.exe (PID: 5260)
+powershell.exe (PID: 1616)
+powershell.exe (PID: 4300)
+powershell.exe (PID: 664)
+powershell.exe (PID: 6964)
+powershell.exe (PID: 1676)
+The sample compiled with english language support
+csrss.exe (PID: 660)
+Detects GO elliptic curve encryption (YARA)
+csrss.exe (PID: 660)
+Application based on Golang
+csrss.exe (PID: 660)
+Reads the machine GUID from the registry
+csrss.exe (PID: 660)
+Checks proxy server information
+slui.exe (PID: 6660)
+Process checks computer location settings
+csrss.exe (PID: 660)
+Reads the software policy settings
+slui.exe (PID: 6660)
+Find more information about signature artifacts and mapping to MITRE ATT&CK™ MATRIX at the
+full report
+
+
+
+section process information :
+2196
+C:\WINDOWS\system32\svchost.exe -k NetworkService -p -s Dnscache
+C:\Windows\System32\svchost.exe
+services.exe
+
+5380
+"C:\Users\admin\Desktop\2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe" 
+C:\Users\admin\Desktop\2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+—
+explorer.exe
+
+5344
+C:\WINDOWS\Sysnative\cmd.exe /C fodhelper
+C:\Windows\System32\cmd.exe
+—
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+
+4976
+\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+C:\Windows\System32\conhost.exe
+—
+cmd.exe
+
+1812
+fodhelper
+C:\Windows\System32\fodhelper.exe
+—
+cmd.exe
+
+7020
+"C:\WINDOWS\system32\fodhelper.exe" 
+C:\Windows\System32\fodhelper.exe
+—
+cmd.exe
+
+2100
+"C:\WINDOWS\system32\fodhelper.exe" 
+C:\Windows\System32\fodhelper.exe
+cmd.exe
+
+1628
+"C:\Users\admin\Desktop\2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe" 
+C:\Users\admin\Desktop\2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+—
+fodhelper.exe
+
+5728
+powershell -nologo -noprofile
+C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+—
+2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+
+6264
+\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+C:\Windows\System32\conhost.exe
+—
+powershell.exe
+
+
+
+section registry activity :
+Registry activity
+Add for printing
+Total events
+43 675
+Read events
+43 633
+Write events
+40
+Delete events
+2
+Modification events
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+Servers
+Value:
+https://duniadekho.bar
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+UUID
+Value:
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+FirstInstallDate
+Value:
+78FFDE6700000000
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+ServiceVersion
+Value:
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+PGDSE
+Value:
+0000000000000000
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+ServersVersion
+Value:
+C300000000000000
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+OSCaption
+Value:
+Microsoft Windows 10 Pro
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+OSArchitecture
+Value:
+64-bit
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+IsAdmin
+Value:
+1
+(PID) Process:
+(5380) 2025-03-22_afac5e4b4d8cb6f10353da7e8fa83fa1_cobalt-strike_frostygoop_gcleaner_poet-rat_sliver_snatch.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\fde20f96
+Operation:
+write
+Name:
+AV
+Value:
+Previous
+1
+2
+3
+4
+5
+Next
+10
+
+
+
+section files activity :
+Files activity
+Add for printing
+Executable files
+4
+Suspicious files
+2
+Text files
+28
+Unknown types
+0
+Dropped files
+PID
+Process
+Filename
+Type
+5260
+powershell.exe
+C:\Windows\Temp\__PSScriptPolicyTest_advluvyf.xaj.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5260
+powershell.exe
+C:\Windows\Temp\__PSScriptPolicyTest_mw2ulraa.4c5.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+4300
+powershell.exe
+C:\Windows\Temp\__PSScriptPolicyTest_kaq4p4k1.3pl.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5728
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_tpekstct.xmz.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5728
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_ebc2jg5t.jmr.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5728
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_2hpmhmzv.c3h.psm1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5260
+powershell.exe
+C:\Windows\Temp\__PSScriptPolicyTest_cp4do3oi.fyi.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5728
+powershell.exe
+C:\Users\admin\AppData\Local\Temp\__PSScriptPolicyTest_4rveleui.ufs.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5260
+powershell.exe
+C:\Windows\Temp\__PSScriptPolicyTest_50pdmpx0.wrk.ps1
+text
+MD5:
+D17FE0A3F47BE24A6453E9EF58C94641
+SHA256:
+96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7
+5728
+powershell.exe
+C:\Users\admin\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-Interactive
+binary
+MD5:
+7C5631AF1058941224A6DC09FE7658C6
+SHA256:
+FC9C9E8FE0024062313FD34540203BCF8E314A0D514953DACA66C2EFDE8BFAC8
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Previous
+1
+2
+3
+4
+Next
+10
+
+
+
+section network activity :
+Network activity
+Add for printing
+HTTP(S) requests
+6
+TCP/UDP connections
+29
+DNS requests
+14
+Threats
+14
+HTTP requests
+PID
+Process
+Method
+HTTP Code
+IP
+URL
+CN
+Type
+Size
+Reputation
+2104
+svchost.exe
+GET
+200
+23.48.23.143:80
+http://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl
+unknown
+ — 
+—
+whitelisted
+—
+—
+GET
+404
+162.159.129.233:443
+https://cdn.discordapp.com/attachments/1088058556286251082/1111230812579450950/TsgVtmYNoFT.zip
+unknown
+text
+36 b
+whitelisted
+—
+—
+GET
+404
+162.159.135.233:443
+https://cdn.discordapp.com/attachments/1088058556286251082/1111230812579450950/TsgVtmYNoFT.zip
+unknown
+text
+36 b
+whitelisted
+—
+—
+POST
+500
+20.83.72.98:443
+https://activation-v2.sls.microsoft.com/SLActivateProduct/SLActivateProduct.asmx?configextension=Retail
+unknown
+xml
+512 b
+whitelisted
+—
+—
+GET
+200
+35.227.232.140:443
+https://blockstream.info/api/address/1BL6NZSoXtMSdquRmePDUCQxFaXtLLSVWG/txs
+unknown
+text
+16.5 Kb
+ — 
+—
+—
+POST
+500
+20.83.72.98:443
+https://activation-v2.sls.microsoft.com/SLActivateProduct/SLActivateProduct.asmx?configextension=Retail
+unknown
+xml
+512 b
+whitelisted
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Connections
+PID
+Process
+IP
+Domain
+ASN
+CN
+Reputation
+2104
+svchost.exe
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+—
+—
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+4
+System
+192.168.100.255:138
+—
+—
+—
+whitelisted
+—
+—
+20.73.194.208:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+2104
+svchost.exe
+23.48.23.143:80
+crl.microsoft.com
+Akamai International B.V.
+DE
+whitelisted
+2104
+svchost.exe
+20.73.194.208:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+4
+System
+192.168.100.255:137
+—
+—
+—
+whitelisted
+660
+csrss.exe
+162.159.135.233:443
+cdn.discordapp.com
+CLOUDFLARENET
+—
+whitelisted
+660
+csrss.exe
+74.125.250.129:19302
+stun4.l.google.com
+—
+—
+whitelisted
+660
+csrss.exe
+34.229.166.50:443
+server2.duniadekho.bar
+AMAZON-AES
+US
+malicious
+Previous
+1
+2
+Next
+10
+DNS requests
+Domain
+IP
+Reputation
+settings-win.data.microsoft.com
+51.104.136.2
+20.73.194.208
+whitelisted
+google.com
+216.58.206.46
+whitelisted
+crl.microsoft.com
+23.48.23.143
+23.48.23.176
+23.48.23.166
+23.48.23.194
+23.48.23.173
+whitelisted
+ce7450a9-749e-498f-add5-90124e501072.uuid.duniadekho.bar
+—
+malicious
+stun4.l.google.com
+74.125.250.129
+whitelisted
+cdn.discordapp.com
+162.159.135.233
+162.159.130.233
+162.159.133.233
+162.159.134.233
+162.159.129.233
+whitelisted
+server2.duniadekho.bar
+34.229.166.50
+malicious
+stun2.l.google.com
+74.125.250.129
+whitelisted
+activation-v2.sls.microsoft.com
+40.91.76.224
+whitelisted
+stun3.l.google.com
+74.125.250.129
+whitelisted
+Previous
+1
+2
+Next
+10
+Threats
+PID
+Process
+Class
+Message
+—
+—
+Misc activity
+ET INFO Observed Discord Domain in DNS Lookup (discordapp .com)
+—
+—
+Misc activity
+ET INFO Observed Discord Domain (discordapp .com in TLS SNI)
+—
+—
+Misc activity
+ET USER_AGENTS Go HTTP Client User-Agent
+—
+—
+Misc activity
+ET INFO ZIP File Download Request via Discord
+—
+—
+Misc activity
+ET INFO Go-http-client User-Agent Observed Outbound
+—
+—
+Misc activity
+ET USER_AGENTS Go HTTP Client User-Agent
+—
+—
+Misc activity
+ET INFO Go-http-client User-Agent Observed Outbound
+—
+—
+Misc activity
+ET USER_AGENTS Go HTTP Client User-Agent
+—
+—
+Misc activity
+ET INFO Go-http-client User-Agent Observed Outbound
+—
+—
+Misc activity
+ET USER_AGENTS Go HTTP Client User-Agent
+Previous
+1
+2
+Next
+10

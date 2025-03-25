@@ -1,0 +1,308 @@
+section general info :
+General Info
+Add for printing
+File name:
+RYDLL32.DLL
+Full analysis: https://app.any.run/tasks/c643a85e-4663-40f5-af61-9463b08c31b1
+Verdict: Malicious activity
+Threats:
+Ramnit
+Trojan
+Ramnit is a highly modular banking trojan and worm that evolved from a file-infecting virus into a powerful cybercrime tool. It specializes in financial fraud, credential theft, remote access, and malware delivery, being a serious threat to businesses and individuals. First spotted in 2010, Ramnit became popular after the 2014 takedown of the GameOver Zeus botnet, as cybercriminals sought alternatives for banking fraud.
+Malware Trends Tracker     >>>
+Analysis date: March 22, 2025 at 13:16:47
+OS: Windows 10 Professional (build: 19045, 64 bit)
+Tags:
+ramnit
+trojan
+Indicators:
+MIME: application/vnd.microsoft.portable-executable
+File info: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows, 5 sections
+MD5:
+BBB2BFEE3188A8AD20A6048DFFF83DAA
+SHA1:
+5CA119E08C4B62138851CB1199D9937A7A1AA33E
+SHA256:
+6EBA92C74F506A12CAD8D041A3BBE06620BFC994D3521FE6A9FAB9018D35CD92
+SSDEEP:
+3072:raFD6t6roxhPLvEclM2/wsypArFXVm/j1+VjjOmtpS:raFD6t6GhPL/lPyerFXVm7YdOcI
+ANY.RUN
+is an interactive service which provides full access to the guest system. Information in this report could be distorted by user actions and is provided for user acknowledgement as it is.
+ANY.RUN
+does not guarantee maliciousness or safety of the content.
+Software environment set and analysis options
+
+
+
+section behavior activities :
+Behavior activities
+Add for printing
+MALICIOUS
+RAMNIT has been detected
+rundll32.exe (PID: 496)
+SUSPICIOUS
+No suspicious indicators.
+INFO
+Failed to create an executable file in Windows directory
+rundll32.exe (PID: 496)
+Find more information about signature artifacts and mapping to MITRE ATT&CK™ MATRIX at the
+full report
+
+
+
+section process information :
+496
+"C:\WINDOWS\SysWOW64\rundll32.exe" C:\Users\admin\AppData\Local\Temp\RYDLL32.DLL.dll, #1
+C:\Windows\SysWOW64\rundll32.exe
+explorer.exe
+
+6808
+C:\WINDOWS\system32\SppExtComObj.exe -Embedding
+C:\Windows\System32\SppExtComObj.Exe
+—
+svchost.exe
+
+4424
+"C:\WINDOWS\System32\SLUI.exe" RuleId=3482d82e-ca2c-4e1f-8864-da0267b484b2;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c;NotificationInterval=1440;Trigger=TimerEvent
+C:\Windows\System32\slui.exe
+—
+SppExtComObj.Exe
+
+
+
+section registry activity :
+Registry activity
+Add for printing
+Total events
+179
+Read events
+179
+Write events
+0
+Delete events
+0
+Modification events
+No data
+
+
+
+section files activity :
+Files activity
+Add for printing
+Executable files
+0
+Suspicious files
+0
+Text files
+0
+Unknown types
+0
+Dropped files
+No data
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+
+
+
+section network activity :
+Network activity
+Add for printing
+HTTP(S) requests
+5
+TCP/UDP connections
+22
+DNS requests
+13
+Threats
+0
+HTTP requests
+PID
+Process
+Method
+HTTP Code
+IP
+URL
+CN
+Type
+Size
+Reputation
+6544
+svchost.exe
+GET
+200
+2.23.77.188:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D
+unknown
+ — 
+—
+whitelisted
+5496
+MoUsoCoreWorker.exe
+GET
+200
+2.16.168.114:80
+http://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl
+unknown
+ — 
+—
+whitelisted
+1188
+backgroundTaskHost.exe
+GET
+200
+2.23.77.188:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx%2Fh0Ztl%2Bz8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g%2F6%2BrkS7QYXjzkCEAUZZSZEml49Gjh0j13P68w%3D
+unknown
+ — 
+—
+whitelisted
+7680
+SIHClient.exe
+GET
+200
+2.16.253.202:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl
+unknown
+ — 
+—
+whitelisted
+7680
+SIHClient.exe
+GET
+200
+2.16.253.202:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Update%20Secure%20Server%20CA%202.1.crl
+unknown
+ — 
+—
+whitelisted
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Connections
+PID
+Process
+IP
+Domain
+ASN
+CN
+Reputation
+4
+System
+192.168.100.255:138
+—
+—
+—
+whitelisted
+4
+System
+192.168.100.255:137
+—
+—
+—
+whitelisted
+5364
+RUXIMICS.exe
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+—
+—
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+2104
+svchost.exe
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+5496
+MoUsoCoreWorker.exe
+2.16.168.114:80
+crl.microsoft.com
+Akamai International B.V.
+RU
+whitelisted
+5496
+MoUsoCoreWorker.exe
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+3216
+svchost.exe
+40.113.110.67:443
+client.wns.windows.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+6544
+svchost.exe
+40.126.31.130:443
+login.live.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+6544
+svchost.exe
+2.23.77.188:80
+ocsp.digicert.com
+AKAMAI-AS
+DE
+whitelisted
+Previous
+1
+2
+Next
+10
+DNS requests
+Domain
+IP
+Reputation
+google.com
+172.217.18.14
+whitelisted
+crl.microsoft.com
+2.16.168.114
+2.16.168.124
+whitelisted
+client.wns.windows.com
+40.113.110.67
+whitelisted
+login.live.com
+40.126.31.130
+20.190.159.68
+20.190.159.71
+40.126.31.3
+40.126.31.71
+20.190.159.23
+20.190.159.75
+40.126.31.67
+whitelisted
+ocsp.digicert.com
+2.23.77.188
+whitelisted
+settings-win.data.microsoft.com
+4.231.128.59
+51.104.136.2
+whitelisted
+arc.msn.com
+20.31.169.57
+whitelisted
+slscr.update.microsoft.com
+172.202.163.200
+whitelisted
+www.microsoft.com
+2.16.253.202
+whitelisted
+fe3cr.delivery.mp.microsoft.com
+20.3.187.198
+whitelisted
+Threats
+No threats detected

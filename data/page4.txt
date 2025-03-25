@@ -1,0 +1,319 @@
+section general info :
+General Info
+Add for printing
+File name:
+EZWeb.dll
+Full analysis: https://app.any.run/tasks/6ff55614-9f97-4eef-94f3-6309a23f8fd2
+Verdict: Malicious activity
+Threats:
+Ramnit
+Trojan
+Ramnit is a highly modular banking trojan and worm that evolved from a file-infecting virus into a powerful cybercrime tool. It specializes in financial fraud, credential theft, remote access, and malware delivery, being a serious threat to businesses and individuals. First spotted in 2010, Ramnit became popular after the 2014 takedown of the GameOver Zeus botnet, as cybercriminals sought alternatives for banking fraud.
+Malware Trends Tracker     >>>
+Analysis date: March 22, 2025 at 17:49:03
+OS: Windows 10 Professional (build: 19045, 64 bit)
+Tags:
+ramnit
+trojan
+upx
+Indicators:
+MIME: application/vnd.microsoft.portable-executable
+File info: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows, 6 sections
+MD5:
+213829277B191378FB8BD64651665366
+SHA1:
+E2B0583C8893B0B853DA922E1E2432FE39F7E0BA
+SHA256:
+C1611B6F1C7369628C6FC0D5C6BB1A2A25F1DF246E55F42BBA792C8653F0B691
+SSDEEP:
+6144:RrmGD6PDiLCscdAvRL/lPyerFXVm7YdOcI:Rp+biTcc/lPpG
+ANY.RUN
+is an interactive service which provides full access to the guest system. Information in this report could be distorted by user actions and is provided for user acknowledgement as it is.
+ANY.RUN
+does not guarantee maliciousness or safety of the content.
+Software environment set and analysis options
+
+
+
+section behavior activities :
+Behavior activities
+Add for printing
+MALICIOUS
+RAMNIT has been detected
+rundll32.exe (PID: 6240)
+SUSPICIOUS
+There is functionality for taking screenshot (YARA)
+rundll32.exe (PID: 6240)
+INFO
+UPX packer has been detected
+rundll32.exe (PID: 6240)
+Failed to create an executable file in Windows directory
+rundll32.exe (PID: 6240)
+Reads the software policy settings
+slui.exe (PID: 5988)
+Find more information about signature artifacts and mapping to MITRE ATT&CK™ MATRIX at the
+full report
+
+
+
+section process information :
+6240
+"C:\WINDOWS\SysWOW64\rundll32.exe" C:\Users\admin\AppData\Local\Temp\EZWeb.dll, #1
+C:\Windows\SysWOW64\rundll32.exe
+explorer.exe
+
+7020
+C:\WINDOWS\system32\SppExtComObj.exe -Embedding
+C:\Windows\System32\SppExtComObj.Exe
+—
+svchost.exe
+
+5988
+"C:\WINDOWS\System32\SLUI.exe" RuleId=3482d82e-ca2c-4e1f-8864-da0267b484b2;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c;NotificationInterval=1440;Trigger=TimerEvent
+C:\Windows\System32\slui.exe
+SppExtComObj.Exe
+
+6560
+C:\WINDOWS\System32\slui.exe -Embedding
+C:\Windows\System32\slui.exe
+—
+svchost.exe
+
+
+
+section registry activity :
+Registry activity
+Add for printing
+Total events
+626
+Read events
+626
+Write events
+0
+Delete events
+0
+Modification events
+No data
+
+
+
+section files activity :
+Files activity
+Add for printing
+Executable files
+0
+Suspicious files
+0
+Text files
+0
+Unknown types
+0
+Dropped files
+No data
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+
+
+
+section network activity :
+Network activity
+Add for printing
+HTTP(S) requests
+5
+TCP/UDP connections
+21
+DNS requests
+13
+Threats
+0
+HTTP requests
+PID
+Process
+Method
+HTTP Code
+IP
+URL
+CN
+Type
+Size
+Reputation
+5496
+MoUsoCoreWorker.exe
+GET
+200
+23.48.23.156:80
+http://crl.microsoft.com/pki/crl/products/MicRooCerAut2011_2011_03_22.crl
+unknown
+ — 
+—
+whitelisted
+2108
+backgroundTaskHost.exe
+GET
+200
+23.54.109.203:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQ50otx%2Fh0Ztl%2Bz8SiPI7wEWVxDlQQUTiJUIBiV5uNu5g%2F6%2BrkS7QYXjzkCEAUZZSZEml49Gjh0j13P68w%3D
+unknown
+ — 
+—
+whitelisted
+6544
+svchost.exe
+GET
+200
+23.54.109.203:80
+http://ocsp.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D
+unknown
+ — 
+—
+whitelisted
+5780
+SIHClient.exe
+GET
+200
+23.219.150.101:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl
+unknown
+ — 
+—
+whitelisted
+5780
+SIHClient.exe
+GET
+200
+23.219.150.101:80
+http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Update%20Secure%20Server%20CA%202.1.crl
+unknown
+ — 
+—
+whitelisted
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Connections
+PID
+Process
+IP
+Domain
+ASN
+CN
+Reputation
+—
+—
+192.168.100.255:137
+—
+—
+—
+whitelisted
+—
+—
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+5496
+MoUsoCoreWorker.exe
+23.48.23.156:80
+crl.microsoft.com
+Akamai International B.V.
+DE
+whitelisted
+1532
+RUXIMICS.exe
+51.104.136.2:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+4
+System
+192.168.100.255:138
+—
+—
+—
+whitelisted
+3216
+svchost.exe
+40.113.110.67:443
+client.wns.windows.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+6544
+svchost.exe
+40.126.32.72:443
+login.live.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+NL
+whitelisted
+6544
+svchost.exe
+23.54.109.203:80
+ocsp.digicert.com
+AKAMAI-AS
+DE
+whitelisted
+2104
+svchost.exe
+40.127.240.158:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+2108
+backgroundTaskHost.exe
+20.223.36.55:443
+arc.msn.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+Previous
+1
+2
+Next
+10
+DNS requests
+Domain
+IP
+Reputation
+google.com
+142.250.181.238
+whitelisted
+settings-win.data.microsoft.com
+51.104.136.2
+40.127.240.158
+whitelisted
+crl.microsoft.com
+23.48.23.156
+23.48.23.143
+whitelisted
+client.wns.windows.com
+40.113.110.67
+whitelisted
+login.live.com
+40.126.32.72
+20.190.160.4
+40.126.32.140
+20.190.160.64
+20.190.160.20
+20.190.160.130
+40.126.32.134
+20.190.160.131
+whitelisted
+ocsp.digicert.com
+23.54.109.203
+whitelisted
+arc.msn.com
+20.223.36.55
+whitelisted
+slscr.update.microsoft.com
+4.175.87.197
+whitelisted
+www.microsoft.com
+23.219.150.101
+whitelisted
+fe3cr.delivery.mp.microsoft.com
+20.3.187.198
+whitelisted
+Threats
+No threats detected

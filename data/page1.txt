@@ -1,0 +1,655 @@
+section general info :
+General Info
+Add for printing
+File name:
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys
+Full analysis: https://app.any.run/tasks/1a58f9e2-4520-406a-a70f-e2e2a8f0a0a2
+Verdict: Malicious activity
+Threats:
+Ramnit
+Trojan
+Ramnit is a highly modular banking trojan and worm that evolved from a file-infecting virus into a powerful cybercrime tool. It specializes in financial fraud, credential theft, remote access, and malware delivery, being a serious threat to businesses and individuals. First spotted in 2010, Ramnit became popular after the 2014 takedown of the GameOver Zeus botnet, as cybercriminals sought alternatives for banking fraud.
+Malware Trends Tracker     >>>
+Analysis date: March 22, 2025 at 21:28:08
+OS: Windows 10 Professional (build: 19045, 64 bit)
+Tags:
+ramnit
+trojan
+upx
+Indicators:
+MIME: application/vnd.microsoft.portable-executable
+File info: PE32 executable (GUI) Intel 80386, for MS Windows, 5 sections
+MD5:
+11440D40B4DCFC3CF8383F9097433BB8
+SHA1:
+F0F69363EBCEEE5C5945F44867AB7FEB7EA2F57B
+SHA256:
+377031A94559FEF772CDA1593232A3B2C7FA6AC7EC57DC44A37CACEF3CFA2C06
+SSDEEP:
+49152:yXcNT+vw5hSgatjHJvFeH+EK5YkZVtPp:yXcNT+shvatjpvFxEWYkZV3
+ANY.RUN
+is an interactive service which provides full access to the guest system. Information in this report could be distorted by user actions and is provided for user acknowledgement as it is.
+ANY.RUN
+does not guarantee maliciousness or safety of the content.
+Software environment set and analysis options
+
+
+
+section behavior activities :
+Behavior activities
+Add for printing
+MALICIOUS
+RAMNIT has been detected
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+DesktopLayer.exe (PID: 5968)
+SUSPICIOUS
+Executable content was dropped or overwritten
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+Starts itself from another location
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+There is functionality for taking screenshot (YARA)
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+INFO
+The sample compiled with english language support
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+msedge.exe (PID: 7516)
+The sample compiled with chinese language support
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+Checks supported languages
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+DesktopLayer.exe (PID: 5968)
+identity_helper.exe (PID: 7792)
+Creates files in the program directory
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe (PID: 7020)
+Application launched itself
+msedge.exe (PID: 1348)
+msedge.exe (PID: 4696)
+Reads Environment values
+identity_helper.exe (PID: 7792)
+Reads the computer name
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+identity_helper.exe (PID: 7792)
+Manual execution by a user
+msedge.exe (PID: 4696)
+UPX packer has been detected
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe (PID: 6388)
+Executable content was dropped or overwritten
+msedge.exe (PID: 7516)
+Checks proxy server information
+slui.exe (PID: 8004)
+Reads the software policy settings
+slui.exe (PID: 8004)
+Find more information about signature artifacts and mapping to MITRE ATT&CK™ MATRIX at the
+full report
+
+
+
+section process information :
+1804
+"C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe" 
+C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe
+—
+explorer.exe
+
+6388
+"C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe" 
+C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe
+explorer.exe
+
+7020
+C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe
+C:\Users\admin\Desktop\2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthys.exe
+
+5968
+"C:\Program Files (x86)\Microsoft\DesktopLayer.exe"
+C:\Program Files (x86)\Microsoft\DesktopLayer.exe
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe
+
+2980
+"C:\Program Files\Internet Explorer\iexplore.exe"
+C:\Program Files\Internet Explorer\iexplore.exe
+—
+DesktopLayer.exe
+
+1348
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --from-ie-to-edge=8 -- "about:blank"
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+—
+iexplore.exe
+
+6876
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=crashpad-handler "--user-data-dir=C:\Users\admin\AppData\Local\Microsoft\Edge\User Data" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Crashpad" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=122.0.6261.70 "--annotation=exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --annotation=plat=Win64 "--annotation=prod=Microsoft Edge" --annotation=ver=122.0.2365.59 --initial-client-data=0x29c,0x2a4,0x2a8,0x298,0x2b0,0x7ffc89dd5fd8,0x7ffc89dd5fe4,0x7ffc89dd5ff0
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+—
+msedge.exe
+
+664
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=gpu-process --no-appcompat-clear --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=2460 --field-trial-handle=2464,i,11340447152952463553,9647944986951696880,262144 --variations-seed-version /prefetch:2
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+—
+msedge.exe
+
+1180
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-appcompat-clear --mojo-platform-channel-handle=2536 --field-trial-handle=2464,i,11340447152952463553,9647944986951696880,262144 --variations-seed-version /prefetch:3
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+—
+msedge.exe
+
+4696
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --from-ie-to-edge=8 --flag-switches-begin --flag-switches-end --do-not-de-elevate -- about:blank
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+explorer.exe
+
+
+
+section registry activity :
+Registry activity
+Add for printing
+Total events
+8 894
+Read events
+8 870
+Write events
+24
+Delete events
+0
+Modification events
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+failed_count
+Value:
+0
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+state
+Value:
+2
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+state
+Value:
+1
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\StabilityMetrics
+Operation:
+write
+Name:
+user_experience_metrics.stability.exited_cleanly
+Value:
+0
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\LastWasDefault
+Operation:
+write
+Name:
+S-1-5-21-1693682860-607145093-2874071422-1001
+Value:
+129547558B8F2F00
+(PID) Process:
+(1348) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\StabilityMetrics
+Operation:
+write
+Name:
+user_experience_metrics.stability.exited_cleanly
+Value:
+1
+(PID) Process:
+(4696) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+failed_count
+Value:
+0
+(PID) Process:
+(4696) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+state
+Value:
+2
+(PID) Process:
+(4696) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\BLBeacon
+Operation:
+write
+Name:
+state
+Value:
+1
+(PID) Process:
+(4696) msedge.exe
+Key:
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\StabilityMetrics
+Operation:
+write
+Name:
+user_experience_metrics.stability.exited_cleanly
+Value:
+0
+Previous
+1
+2
+3
+Next
+10
+
+
+
+section files activity :
+Files activity
+Add for printing
+Executable files
+13
+Suspicious files
+103
+Text files
+38
+Unknown types
+3
+Dropped files
+PID
+Process
+Filename
+Type
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\parcel_tracking_db\LOG.old~RF10c9ca.TMP
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\parcel_tracking_db\LOG.old
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\PersistentOriginTrials\LOG.old~RF10c9ca.TMP
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\PersistentOriginTrials\LOG.old
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\EdgePushStorageWithConnectTokenAndKey\LOG.old~RF10c9ca.TMP
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\EdgePushStorageWithConnectTokenAndKey\LOG.old
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\discounts_db\LOG.old~RF10c9da.TMP
+—
+MD5:
+—
+SHA256:
+—
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\discounts_db\LOG.old
+—
+MD5:
+—
+SHA256:
+—
+7020
+2025-03-22_11440d40b4dcfc3cf8383f9097433bb8_amadey_icedid_ramnit_rhadamanthysSrv.exe
+C:\Program Files (x86)\Microsoft\DesktopLayer.exe
+executable
+MD5:
+FF5E1F27193CE51EEC318714EF038BEF
+SHA256:
+FD6C69C345F1E32924F0A5BB7393E191B393A78D58E2C6413B03CED7482F2320
+4696
+msedge.exe
+C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default\commerce_subscription_db\LOG.old~RF10c9ca.TMP
+—
+MD5:
+—
+SHA256:
+—
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Previous
+1
+2
+3
+4
+5
+6
+7
+…
+18
+Next
+10
+
+
+
+section network activity :
+Network activity
+Add for printing
+HTTP(S) requests
+60
+TCP/UDP connections
+48
+DNS requests
+41
+Threats
+0
+HTTP requests
+PID
+Process
+Method
+HTTP Code
+IP
+URL
+CN
+Type
+Size
+Reputation
+—
+—
+GET
+401
+13.107.6.158:443
+https://business.bing.com/api/v1/user/token/microsoftgraph?&clienttype=edge-omnibox
+unknown
+ — 
+—
+ — 
+—
+—
+GET
+200
+13.107.42.16:443
+https://config.edge.skype.com/config/v1/Edge/122.0.2365.59?clientId=4489578223053569932&agents=EdgeFirstRun%2CEdgeFirstRunConfig&osname=win&client=edge&channel=stable&scpfre=0&osarch=x86_64&osver=10.0.19045&wu=1&devicefamily=desktop&uma=0&sessionid=44&mngd=0&installdate=1661339457&edu=0&bphint=2&soobedate=1504771245&fg=1
+unknown
+binary
+768 b
+whitelisted
+—
+—
+GET
+200
+150.171.27.11:443
+https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1661339457&clientversion=122.0.2365.59&experimentationmode=2&scpguard=0&scpfull=0&scpver=0
+unknown
+binary
+861 b
+whitelisted
+—
+—
+GET
+302
+2.16.253.202:443
+https://go.microsoft.com/fwlink/?linkid=2133855&bucket=15
+unknown
+ — 
+—
+ — 
+—
+—
+GET
+304
+150.171.27.11:443
+https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist
+unknown
+ — 
+—
+ — 
+—
+—
+GET
+200
+13.107.246.44:443
+https://edgeassetservice.azureedge.net/assets/domains_config_gz/3.0.7/asset?assetgroup=EntityExtractionDomainsConfig
+unknown
+ — 
+—
+ — 
+—
+—
+GET
+200
+2.16.204.151:443
+https://edgeservices.bing.com/edgesvc/userstatus
+unknown
+binary
+381 b
+whitelisted
+—
+—
+GET
+200
+150.171.27.11:443
+https://edge.microsoft.com/entityextractiontemplates/api/v1/assets/find-assets?name=edge_hub_apps_manifest_gz&version=4.10.*&channel=stable&key=d414dd4f9db345fa8003e32adc81b362
+unknown
+text
+266 b
+whitelisted
+—
+—
+GET
+200
+13.107.246.44:443
+https://edge-consumer-static.azureedge.net/mouse-gesture/config.json
+unknown
+binary
+101 b
+whitelisted
+—
+—
+GET
+200
+150.171.27.11:443
+https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=122.0.2365.59&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc%26ping%3Dr%253D247%2526e%253D1
+unknown
+xml
+413 b
+whitelisted
+Download PCAP, analyze network streams, HTTP content and a lot more at the
+full report
+Previous
+1
+2
+3
+4
+5
+6
+Next
+10
+Connections
+PID
+Process
+IP
+Domain
+ASN
+CN
+Reputation
+—
+—
+192.168.100.255:137
+—
+—
+—
+whitelisted
+—
+—
+40.127.240.158:443
+settings-win.data.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+IE
+whitelisted
+4
+System
+192.168.100.255:138
+—
+—
+—
+whitelisted
+3020
+msedge.exe
+13.107.42.16:443
+config.edge.skype.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+US
+whitelisted
+4696
+msedge.exe
+239.255.255.250:1900
+—
+—
+—
+whitelisted
+3020
+msedge.exe
+150.171.27.11:443
+edge.microsoft.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+US
+whitelisted
+3020
+msedge.exe
+13.107.246.44:443
+edge-mobile-static.azureedge.net
+MICROSOFT-CORP-MSN-AS-BLOCK
+US
+whitelisted
+3020
+msedge.exe
+13.107.6.158:443
+business.bing.com
+MICROSOFT-CORP-MSN-AS-BLOCK
+US
+whitelisted
+3020
+msedge.exe
+2.19.11.120:443
+bzib.nelreports.net
+Elisa Oyj
+NL
+whitelisted
+3020
+msedge.exe
+142.250.186.163:443
+update.googleapis.com
+GOOGLE
+US
+whitelisted
+Previous
+1
+2
+3
+Next
+10
+DNS requests
+Domain
+IP
+Reputation
+settings-win.data.microsoft.com
+40.127.240.158
+whitelisted
+google.com
+142.250.186.142
+whitelisted
+config.edge.skype.com
+13.107.42.16
+whitelisted
+edge.microsoft.com
+150.171.27.11
+150.171.28.11
+13.107.21.239
+204.79.197.239
+whitelisted
+edge-mobile-static.azureedge.net
+13.107.246.44
+whitelisted
+business.bing.com
+13.107.6.158
+whitelisted
+bzib.nelreports.net
+2.19.11.120
+2.19.11.100
+2.22.242.11
+2.22.242.105
+whitelisted
+update.googleapis.com
+142.250.186.163
+whitelisted
+edgeservices.bing.com
+2.16.204.161
+2.16.204.146
+2.16.204.150
+2.16.204.158
+2.16.204.151
+2.16.204.155
+2.16.204.153
+2.16.204.148
+2.16.204.138
+whitelisted
+edgeassetservice.azureedge.net
+13.107.246.44
+whitelisted
+Previous
+1
+2
+Next
+10
+Threats
+No threats detected
